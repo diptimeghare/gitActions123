@@ -1,9 +1,11 @@
 #ETL Pipeline
-name: ETL Pipeline demo
+name: github action demo pipeline
+
 on:
   push:
-      branches:
-        -main
+    branches:
+      - main
+
 jobs:
   extract-data:
     runs-on: ubuntu-latest
